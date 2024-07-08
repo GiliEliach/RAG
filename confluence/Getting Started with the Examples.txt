@@ -1,0 +1,38 @@
+Getting Started with the Examples
+In order to get you started with the examples. we have created an example repository that shows some of the features the framework has. 
+Go ahead and clone the repository from here.
+You can download it by using git clone:
+In the repo, you will find everything you need to get started with the framework. 
+Please make sure in your pom.xml file that it is updated to the latest versions:
+test-api latest version from maven
+Selenium4-Junit5 latest version from maven
+The JavaDocs for the framework can be found:
+test-api javadocs
+Selenium4-Junit5 javadocs
+Here are some of the topics we demonstrate:
+Basic Web UI test
+Basic Mobile UI test
+Working with page objects
+Using Async methods to avoid unnecessary waits
+Using Report observers to implement new report types without having to write API calls directly during tests.
+Injecting DesiredCapabilities object using Spring dependency injection mechanism
+Using an enhanced set of locators
+A basic example of the Junit 5 extension mechanism
+How to use a Retry class to repeat actions before failing the test
+A shared memory mechanism - the store
+How to use HttpCommandExecutor to manipulate outgoing and incoming HTTP messages.
+How to create a JSON object to be uploaded to Jira XRAY
+How to use application.properties file to set remote URL easily
+Setting up your own properties
+Using @Tag to filter test executions
+How to use Extent-Report for reporting 
+Using the Objects Repository 
+Adding Custom WebDriver Listeners 
+Additional features
+Test Results Calculation
+Framework Minimum Requirements
+Test Method Decorators
+Soft Asserts
+Waits
+Writing Rest API Tests
+1git clone https://NirGallner@bitbucket.org/nir_gallner/verisoftframeworkexamples.git

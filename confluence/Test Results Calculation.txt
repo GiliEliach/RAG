@@ -1,0 +1,13 @@
+Test Results Calculation
+JUnit 5, like a lot of other unit test frameworks, works in the following way:
+1. If during the test there were no exceptions thrown, or exceptions that were thrown were caught and handled - the test is declared as 
+PASSED
+2. If during the test there were exceptions thrown, which were not caught or dealt with - the test is declared FAILED
+3. There is a third option, which declares the test as SKIPPED
+Once this concept is understood, we realize that assertions, if do not meet the criteria, throw an exception under the hood thus making the 
+test fail. 
+Verisoft Framework uses a publisher (aka subject) to report the test result. It evaluates the test result using the JUnit 5 test result 
+mechanism and then reports the result to its observers. So, for ExtentsReport for example, it will NOT report an error during the test 
+execution, since it automatically causes the Extent Test to fail, and the publisher waits until JUnit 5 will resolve the test execution result. 
+Using Assumptions.assumeTrue(boolean) Will help users to skip tests. You can see an example here
+ 

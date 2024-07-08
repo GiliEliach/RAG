@@ -1,0 +1,21 @@
+Soft Assert
+Soft assertions are types of assertions, in which the test execution does not stop if the test does not meet the assertion condition. The 
+remaining tests are executed. If a test does not meet the assertion condition, at the method call assertAll it will fail.
+Here is an example of using soft assertions:
+ 
+ 
+It the above example, two conditions are false and tested to be true. Both will fail, however the test execution is not halted until the 
+softAsserts.assertAll(); is called
+ 
+1@Test
+2public void assertAllMultipleFailuresAssertionErrorWithAllFailures (){
+3    SoftAsserts  softAsserts = new SoftAsserts ();
+4
+5    boolean condition1 = false;
+6    boolean condition2 = false;
+7
+8    softAsserts .assertTrue (condition1 , "Condition 1 should be true" );
+9    softAsserts .assertTrue (condition2 , "Condition 2 should be true" );
+10
+11    softAsserts .assertAll ();
+12}

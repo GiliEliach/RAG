@@ -1,0 +1,2 @@
+Working with Screenplay design pattern
+This page is not yet implemented. In the meantime, to learn more about the screenplay design pattern please visit this page.

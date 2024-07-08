@@ -1,0 +1,8 @@
+Test Method Decorators
+In the VeriSoft Framework, there are a few test-level method decorators:
+1. @ T e s t - Is a JUnit annotation to mark this method as test method. All JUnit 5 annotations apply. See JUnit 5 documentation on 
+annotations
+2. @TestDescription - Adds add a test description to the report mechnisms
+3. @DisplayName - Will change the name of the tests for most of the integrated reports, instead of the method name.
+4. @XrayIdentifies - Will report the result of the test to Jira according to the identifier specified.
+ 

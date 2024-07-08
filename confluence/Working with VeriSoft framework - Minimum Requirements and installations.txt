@@ -1,0 +1,22 @@
+Working with VeriSoft framework - Minimum Requirements and installations
+Minimum Requirements
+Here are the minimum requirements in order to properly work with the VeriSoft framework:
+1. JDK - minimum version 11. The minimum requirement will be changed in the near future to 15, so it is preferable to make your 
+development environment work with JDK 15, to begin with. You may select any JDK package you wish (Oracle, OpenJDK, etc.).
+2. Maven - The Minimum version is 3.6. 
+3. Access to Maven Central - The framework is constantly updating. If you want to grab the latest, you should be able to download 
+packages from maven central either directly or through your artifactory (Nexus, Jfrog, etc.).
+4. How to best initialize WebDriver - In order for the web framework to work, we will need access to the appropriate driver with the proper 
+version installed on your local machine. There are a few options here:
+a. If you have an external internet connection - the framework (using WebDriverManager) will automatically download the proper driver 
+for you.
+b. If you don’t have an external internet connection but can mirror the driver’s websites to your local environment.
+c. If you don’t have an internet connection, download the versions,  make use of your artifactory to store them, and you can build your 
+own central place to hold the drivers. See How to keep my driver updated for further instructions. 
+d. Finally, you can put it locally on your development machine. See How to keep my driver updated for further instructions
+5. Additional packages - You may need some packages to be available on your project as well, like JUnit 5, Spring, etc. Please keep 
+track of the versions VerisoftFramework is using to make sure there are no unnecessary duplications or version mismatched. You can 
+find the list of the dependencies here:
+a. For the Selenium4-Junit5 artifact visit this page
+b. For the test-api artifact visit this page
+ 
