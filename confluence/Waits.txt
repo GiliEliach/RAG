@@ -1,7 +1,0 @@
-Waits
-Verisoft framework uses Selenium’s Explicitly Wait mechanism.
-The use of wait merely simplifies the need to call a new WebDriverWait object:
-There is also the option of just waiting, without the need to try and catch an exception:
- 
-1Waits.visibilityOf(driver, timeOut, navigate);
-1Waits.milliseconds(3000);

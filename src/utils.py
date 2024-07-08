@@ -56,7 +56,6 @@ def load_files(
     folder_path: str = "/content/drive/MyDrive/rag data/confluence"
 ) -> List[UnstructuredFileLoader]:
     files = [os.path.join(folder_path, f) for f in os.listdir(folder_path) if f.endswith('.pdf')]
-    print(files)
     loaders = [
         UnstructuredFileLoader(
             file,
