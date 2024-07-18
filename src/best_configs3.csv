@@ -1,0 +1,18 @@
+,Search Option,Max Score,Mean Score,Min Score,Num of Documents
+16,"{'search_type': 'similarity_score_threshold', 'search_kwargs': {'score_threshold': 0.7}}",0.9852472775,0.9639052400986353,0.9422867275,1.75
+15,"{'search_type': 'similarity_score_threshold', 'search_kwargs': {'score_threshold': 0.5}}",0.96427491,0.701552665233612,0.30633877000000004,4.0
+2,{'search_kwargs': {'k': 5}},0.986575334,0.6650713789719156,0.27139628659000004,5.0
+14,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'lambda_mult': 0.75}}",0.983422797,0.6243478044588119,0.18717289152,5.0
+0,{'search_kwargs': {'k': 10}},0.991339741,0.4802219649998006,0.03421282836,10.0
+8,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'lambda_mult': 0.75}}",0.9881872039999999,0.4557124675030354,0.02161047304,10.0
+13,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'lambda_mult': 0.5}}",0.846279808,0.40620411103591325,0.02366358312,5.0
+9,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'fetch_k': 30}}",0.84627982,0.40223049419582824,0.028075312657,5.0
+1,{'search_kwargs': {'k': 15}},0.991339741,0.3909690433721213,0.01242166,15.0
+10,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'fetch_k': 50}}",0.849929073,0.3790215261702542,0.017897440921,5.0
+11,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'fetch_k': 70}}",0.8473564400000001,0.35417043092689704,0.018156792131,5.0
+7,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'lambda_mult': 0.5}}",0.96588671,0.3534071474371012,0.013693453385000002,10.0
+3,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'fetch_k': 30}}",0.9520299729999999,0.32877317488542757,0.014217778277000001,10.0
+12,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'lambda_mult': 0.25}}",0.8308873800000001,0.3148260695452336,0.027480226776,5.0
+6,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'lambda_mult': 0.25}}",0.883933298,0.2916442572002415,0.016316909035,10.0
+4,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'fetch_k': 50}}",0.949377533,0.28715448119299253,0.008542527543,10.0
+5,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'fetch_k': 70}}",0.949377533,0.2751428988988482,0.008906363816,10.0

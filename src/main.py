@@ -1,11 +1,12 @@
 from utils import *
 from config import DATA_FILES, FAISS_INDEX_PATH
+import pandas as pd
 
 
 def main():
     user_query = input("Please enter your query: ")
     query = ("I am an automation developer using the VeriSoft framework to write my tests."
-             "I would like you to base your answer on the content and the code examples provided here. "
+             "I would like you to base your answer on the documentation and the code examples provided here. "
              "my question is: ") + user_query
     if not os.path.exists(FAISS_INDEX_PATH):
         loader = load_files(folder_path=DATA_FILES)
@@ -22,7 +23,6 @@ def main():
     retrieved_documents = retriever.get_relevant_documents(query)
     context = rerank_docs(reranker_model, query, retrieved_documents)
     return build_prompt(query, context)
-
 
 if __name__ == '__main__':
     print(main())
