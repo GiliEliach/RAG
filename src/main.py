@@ -18,7 +18,7 @@ def main():
         embedding_model = load_embedding_model(device="cpu")
         vectorstore = load_embeddings(FAISS_INDEX_PATH, embedding_model)
 
-    retriever = vectorstore.as_retriever(search_kwargs={"k": 10})
+    retriever = vectorstore.as_retriever(search_kwargs={'search_type': 'similarity_score_threshold', 'search_kwargs': {'score_threshold': 0.5}})
     reranker_model = load_reranker_model(device="cpu")
     retrieved_documents = retriever.get_relevant_documents(query)
     context = rerank_docs(reranker_model, query, retrieved_documents)
