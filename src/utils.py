@@ -93,13 +93,13 @@ def load_text_files(folder_path: str = "data") -> List[UnstructuredFileLoader]:
     return loaders
 
 
-def split_text(loaders: List[UnstructuredFileLoader], separators=None, chunk_size=300):
+def split_text(loaders: List[UnstructuredFileLoader], separators=None, chunk_size=1000):
     if separators is None:
         separators = ["\n\n\n", "\n\n"]
     text_splitter = RecursiveCharacterTextSplitter(
         separators=separators,
         chunk_size=chunk_size,
-        chunk_overlap=50,
+        chunk_overlap=200,
         length_function=len,
         is_separator_regex=False,
     )
