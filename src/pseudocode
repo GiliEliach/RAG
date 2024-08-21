@@ -1,0 +1,27 @@
+#user query
+user_query = input("Enter your query")
+query = "I am an automation developer... " + user_query
+
+#load, process & split data
+loader = load_files(DATA_FILES)
+documents = split_text(loader)
+
+#generating vector database
+embedding_model = load_embedding_model("cpu")
+vectorstore = FAISS.from_documents(documents, embedding_model)
+save_embeddings(vectorstore, FAISS_INDEX_PATH)
+
+#retrieve the relevant docs to the query
+retriever = vectorstore.as_retriever(k=10)
+retrieved_documents = retriever.get_relevant_documents(query)
+
+#rerank the docs
+reranker_model = load_reranker_model("cpu")
+context = rerank_docs(reranker_model, query, retrieved_documents)
+
+#build the prompt and send it to the LLM
+prompt = build_prompt(query, context)
+response = chat_with_gpt4(prompt)
+
+
+

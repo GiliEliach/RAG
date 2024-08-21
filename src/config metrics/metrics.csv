@@ -1,0 +1,164 @@
+,Query,Search Option,Max Score,Mean Score,Min Score,Num of Documents
+0,What is VeriSoft framework?,{'search_kwargs': {'k': 5}},0.14157341,0.10354414433240891,0.07132605,5.0
+1,What is VeriSoft framework?,{'search_kwargs': {'k': 10}},0.141573,0.09294143598526716,0.028969971,10.0
+2,What is VeriSoft framework?,{'search_kwargs': {'k': 15}},0.141573,0.09165952888627847,0.028969971,15.0
+3,What is VeriSoft framework?,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'lambda_mult': 0.25}}",0.086916395,0.059262872114777564,0.028969971,5.0
+4,What is VeriSoft framework?,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'lambda_mult': 0.5}}",0.09405318,0.06631836257874965,0.028969971,5.0
+5,What is VeriSoft framework?,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'lambda_mult': 0.75}}",0.09405318,0.06239193789660931,0.028969971,5.0
+6,What is VeriSoft framework?,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'lambda_mult': 0.25}}",0.09505441,0.06953474301844835,0.028969971,10.0
+7,What is VeriSoft framework?,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'lambda_mult': 0.5}}",0.09505441,0.06953474301844835,0.028969971,10.0
+8,What is VeriSoft framework?,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'lambda_mult': 0.75}}",0.141573,0.07732979822903871,0.028969971,10.0
+9,What is VeriSoft framework?,"{'search_type': 'similarity_score_threshold', 'search_kwargs': {'score_threshold': 0.5}}",0.12053343,0.09403682686388493,0.07132605,4.0
+10,What is VeriSoft framework?,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'fetch_k': 30}}",0.09405318,0.06631836257874965,0.028969971,5.0
+11,What is VeriSoft framework?,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'fetch_k': 50}}",0.12150873,0.06417176611721516,0.028969971,5.0
+12,What is VeriSoft framework?,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'fetch_k': 70}}",0.07132605,0.044180259481072424,0.0215512,5.0
+13,What is VeriSoft framework?,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'fetch_k': 30}}",0.09505441,0.06953474301844835,0.028969971,10.0
+14,What is VeriSoft framework?,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'fetch_k': 50}}",0.121509,0.06550769601017237,0.027188212,10.0
+15,What is VeriSoft framework?,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'fetch_k': 70}}",0.121509,0.05640773009508848,0.013508966,10.0
+16,How to use the @DriverCapabilities annotation?,{'search_kwargs': {'k': 5}},0.949932,0.6744672179222106,0.2454691,5.0
+17,How to use the @DriverCapabilities annotation?,{'search_kwargs': {'k': 10}},0.949932,0.7063332960009575,0.24546824,10.0
+18,How to use the @DriverCapabilities annotation?,{'search_kwargs': {'k': 15}},0.949932,0.5957010628034671,0.015774446,15.0
+19,How to use the @DriverCapabilities annotation?,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'lambda_mult': 0.25}}",0.86058354,0.3760879632085562,0.02341616,5.0
+20,How to use the @DriverCapabilities annotation?,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'lambda_mult': 0.5}}",0.86058354,0.3760879632085562,0.02341616,5.0
+21,How to use the @DriverCapabilities annotation?,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'lambda_mult': 0.75}}",0.949932,0.6612825751304626,0.2454691,5.0
+22,How to use the @DriverCapabilities annotation?,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'lambda_mult': 0.25}}",0.8605835,0.4619992084801197,0.015774446,10.0
+23,How to use the @DriverCapabilities annotation?,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'lambda_mult': 0.5}}",0.949932,0.4342044822871685,0.015774446,10.0
+24,How to use the @DriverCapabilities annotation?,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'lambda_mult': 0.75}}",0.949932,0.5315101563930511,0.015774446,10.0
+25,How to use the @DriverCapabilities annotation?,"{'search_type': 'similarity_score_threshold', 'search_kwargs': {'score_threshold': 0.5}}",0.949932,0.6855950057506561,0.2454691,4.0
+26,How to use the @DriverCapabilities annotation?,"{'search_type': 'similarity_score_threshold', 'search_kwargs': {'score_threshold': 0.7}}",0.86058366,0.8605836629867554,0.86058366,1.0
+27,How to use the @DriverCapabilities annotation?,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'fetch_k': 30}}",0.86058354,0.2091876644641161,0.020370133,5.0
+28,How to use the @DriverCapabilities annotation?,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'fetch_k': 50}}",0.91141874,0.377216019295156,0.009081329,5.0
+29,How to use the @DriverCapabilities annotation?,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'fetch_k': 70}}",0.91141874,0.37877462767064574,0.016874371,5.0
+30,How to use the @DriverCapabilities annotation?,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'fetch_k': 30}}",0.949932,0.4148878712207079,0.020370143,10.0
+31,How to use the @DriverCapabilities annotation?,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'fetch_k': 50}}",0.91141856,0.20960568732116372,0.0030938808,10.0
+32,How to use the @DriverCapabilities annotation?,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'fetch_k': 70}}",0.91141856,0.1937171096316888,0.00019701982,10.0
+33,What is the difference between the local thread and the global store?,{'search_kwargs': {'k': 5}},0.052079238,0.013815530855208636,0.0028799977,5.0
+34,What is the difference between the local thread and the global store?,{'search_kwargs': {'k': 10}},0.052079204,0.009012948581948876,0.0024027524,10.0
+35,What is the difference between the local thread and the global store?,{'search_kwargs': {'k': 15}},0.052079204,0.007182963502903779,0.0013649266,15.0
+36,What is the difference between the local thread and the global store?,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'lambda_mult': 0.25}}",0.052079238,0.013444634107872843,0.001364928,5.0
+37,What is the difference between the local thread and the global store?,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'lambda_mult': 0.5}}",0.052079238,0.01322631244547665,0.001364928,5.0
+38,What is the difference between the local thread and the global store?,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'lambda_mult': 0.75}}",0.052079238,0.01324082030914724,0.001364928,5.0
+39,What is the difference between the local thread and the global store?,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'lambda_mult': 0.25}}",0.052079204,0.009151984541676938,0.0013649266,10.0
+40,What is the difference between the local thread and the global store?,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'lambda_mult': 0.5}}",0.052079204,0.009178672195412218,0.0013649266,10.0
+41,What is the difference between the local thread and the global store?,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'lambda_mult': 0.75}}",0.052079204,0.009180473000742494,0.0013649266,10.0
+42,What is the difference between the local thread and the global store?,"{'search_type': 'similarity_score_threshold', 'search_kwargs': {'score_threshold': 0.5}}",0.052079238,0.016168243251740932,0.0028799977,4.0
+43,What is the difference between the local thread and the global store?,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'fetch_k': 30}}",0.052079238,0.013010964496061206,0.001364928,5.0
+44,What is the difference between the local thread and the global store?,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'fetch_k': 50}}",0.052079238,0.011724060133565218,0.00026513904,5.0
+45,What is the difference between the local thread and the global store?,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'fetch_k': 70}}",0.052079238,0.011694976208673324,0.000119719414,5.0
+46,What is the difference between the local thread and the global store?,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'fetch_k': 30}}",0.052079204,0.00930536532541737,0.0012665783,10.0
+47,What is the difference between the local thread and the global store?,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'fetch_k': 50}}",0.052079204,0.006498479634319665,8.4330306e-05,10.0
+48,What is the difference between the local thread and the global store?,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'fetch_k': 70}}",0.052079204,0.006170270509755937,8.4330306e-05,10.0
+49,What is the EnvConfig class and how to use it?,{'search_kwargs': {'k': 5}},0.14130935,0.0433918297290802,0.01517457,5.0
+50,What is the EnvConfig class and how to use it?,{'search_kwargs': {'k': 10}},0.14130963,0.03004485461860895,0.010477487,10.0
+51,What is the EnvConfig class and how to use it?,{'search_kwargs': {'k': 15}},0.14130963,0.030380273362000783,0.010477487,15.0
+52,What is the EnvConfig class and how to use it?,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'lambda_mult': 0.25}}",0.14130935,0.04193642064929008,0.010477472,5.0
+53,What is the EnvConfig class and how to use it?,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'lambda_mult': 0.5}}",0.14130935,0.04193642064929008,0.010477472,5.0
+54,What is the EnvConfig class and how to use it?,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'lambda_mult': 0.75}}",0.14130935,0.04164328314363956,0.010477472,5.0
+55,What is the EnvConfig class and how to use it?,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'lambda_mult': 0.25}}",0.14130963,0.030678881146013737,0.00851832,10.0
+56,What is the EnvConfig class and how to use it?,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'lambda_mult': 0.5}}",0.14130963,0.030678881146013737,0.00851832,10.0
+57,What is the EnvConfig class and how to use it?,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'lambda_mult': 0.75}}",0.14130963,0.03067923691123724,0.00851832,10.0
+58,What is the EnvConfig class and how to use it?,"{'search_type': 'similarity_score_threshold', 'search_kwargs': {'score_threshold': 0.5}}",0.14130935,0.048189541790634394,0.01517457,4.0
+59,What is the EnvConfig class and how to use it?,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'fetch_k': 30}}",0.14130935,0.03854132127016783,0.005237731,5.0
+60,What is the EnvConfig class and how to use it?,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'fetch_k': 50}}",0.14130935,0.03854132127016783,0.005237731,5.0
+61,What is the EnvConfig class and how to use it?,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'fetch_k': 70}}",0.14130935,0.03854132127016783,0.005237731,5.0
+62,What is the EnvConfig class and how to use it?,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'fetch_k': 30}}",0.14130963,0.02932836124673486,0.0052377237,10.0
+63,What is the EnvConfig class and how to use it?,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'fetch_k': 50}}",0.14130963,0.024507613840978593,0.00076979015,10.0
+64,What is the EnvConfig class and how to use it?,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'fetch_k': 70}}",0.14130963,0.023175274813547732,0.00058590586,10.0
+65,Show an example of how to perform a retry in the verisoft framework,{'search_kwargs': {'k': 5}},0.9756352,0.3871784061193466,0.15005173,5.0
+66,Show an example of how to perform a retry in the verisoft framework,{'search_kwargs': {'k': 10}},0.9756352,0.2762163430452347,0.13066052,10.0
+67,Show an example of how to perform a retry in the verisoft framework,{'search_kwargs': {'k': 15}},0.9756352,0.25063575406869254,0.074705824,15.0
+68,Show an example of how to perform a retry in the verisoft framework,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'lambda_mult': 0.25}}",0.9756352,0.4014205291867256,0.07470589,5.0
+69,Show an example of how to perform a retry in the verisoft framework,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'lambda_mult': 0.5}}",0.9756352,0.4014205291867256,0.07470589,5.0
+70,Show an example of how to perform a retry in the verisoft framework,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'lambda_mult': 0.75}}",0.9756352,0.3493017092347145,0.07470589,5.0
+71,Show an example of how to perform a retry in the verisoft framework,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'lambda_mult': 0.25}}",0.9756352,0.3005386121571064,0.07470585,10.0
+72,Show an example of how to perform a retry in the verisoft framework,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'lambda_mult': 0.5}}",0.9756352,0.31772936061024665,0.07470585,10.0
+73,Show an example of how to perform a retry in the verisoft framework,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'lambda_mult': 0.75}}",0.9756352,0.29070678129792216,0.07470585,10.0
+74,Show an example of how to perform a retry in the verisoft framework,"{'search_type': 'similarity_score_threshold', 'search_kwargs': {'score_threshold': 0.5}}",0.9756352,0.4193139560520649,0.15005173,4.0
+75,Show an example of how to perform a retry in the verisoft framework,"{'search_type': 'similarity_score_threshold', 'search_kwargs': {'score_threshold': 0.7}}",0.9756351,0.9756351113319397,0.9756351,1.0
+76,Show an example of how to perform a retry in the verisoft framework,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'fetch_k': 30}}",0.9756352,0.3502150818705559,0.07470589,5.0
+77,Show an example of how to perform a retry in the verisoft framework,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'fetch_k': 50}}",0.9756352,0.24736022064462304,0.004544996,5.0
+78,Show an example of how to perform a retry in the verisoft framework,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'fetch_k': 70}}",0.9756352,0.24736022064462304,0.004544996,5.0
+79,Show an example of how to perform a retry in the verisoft framework,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'fetch_k': 30}}",0.9756352,0.3108486749231815,0.07470585,10.0
+80,Show an example of how to perform a retry in the verisoft framework,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'fetch_k': 50}}",0.9756352,0.2594224032945931,0.0045450004,10.0
+81,Show an example of how to perform a retry in the verisoft framework,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'fetch_k': 70}}",0.9756352,0.20635529989376664,0.004041817,10.0
+82,What is the object repository and how to use it?,{'search_kwargs': {'k': 5}},0.6670451,0.526861846446991,0.45664206,5.0
+83,What is the object repository and how to use it?,{'search_kwargs': {'k': 10}},0.6670458,0.3289615400135517,0.035191648,10.0
+84,What is the object repository and how to use it?,{'search_kwargs': {'k': 15}},0.6670458,0.22913383990526198,0.017873976,15.0
+85,What is the object repository and how to use it?,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'lambda_mult': 0.25}}",0.5356092,0.14061646312475204,0.017873958,5.0
+86,What is the object repository and how to use it?,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'lambda_mult': 0.5}}",0.5356092,0.14619218036532403,0.017873958,5.0
+87,What is the object repository and how to use it?,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'lambda_mult': 0.75}}",0.5356092,0.4049257606267929,0.057364687,5.0
+88,What is the object repository and how to use it?,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'lambda_mult': 0.25}}",0.5356093,0.08658867832273245,0.017873976,10.0
+89,What is the object repository and how to use it?,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'lambda_mult': 0.5}}",0.5356093,0.17386397793889047,0.017873976,10.0
+90,What is the object repository and how to use it?,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'lambda_mult': 0.75}}",0.6670458,0.3272297728806734,0.017873976,10.0
+91,What is the object repository and how to use it?,"{'search_type': 'similarity_score_threshold', 'search_kwargs': {'score_threshold': 0.5}}",0.6670457,0.544417105615139,0.4679099,4.0
+92,What is the object repository and how to use it?,"{'search_type': 'similarity_score_threshold', 'search_kwargs': {'score_threshold': 0.7}}",0.5356096,0.5356096029281616,0.5356096,1.0
+93,What is the object repository and how to use it?,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'fetch_k': 30}}",0.5356092,0.13564131185412406,0.009703733,5.0
+94,What is the object repository and how to use it?,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'fetch_k': 50}}",0.5356092,0.13355643823742866,0.017771672,5.0
+95,What is the object repository and how to use it?,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'fetch_k': 70}}",0.5356092,0.130072312039556,0.00035104147,5.0
+96,What is the object repository and how to use it?,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'fetch_k': 30}}",0.5356093,0.08353366293013095,0.009703741,10.0
+97,What is the object repository and how to use it?,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'fetch_k': 50}}",0.5356093,0.0841890917159617,0.009703741,10.0
+98,What is the object repository and how to use it?,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'fetch_k': 70}}",0.5356093,0.07709550649451558,0.00035104147,10.0
+99,Show an example of how to add a value in the application.properties file and use it in a test / class,{'search_kwargs': {'k': 5}},0.18022306,0.1308643639087677,0.06901726,5.0
+100,Show an example of how to add a value in the application.properties file and use it in a test / class,{'search_kwargs': {'k': 10}},0.1802231,0.11605341769754887,0.049588043,10.0
+101,Show an example of how to add a value in the application.properties file and use it in a test / class,{'search_kwargs': {'k': 15}},0.1802231,0.11434677417079607,0.049588043,15.0
+102,Show an example of how to add a value in the application.properties file and use it in a test / class,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'lambda_mult': 0.25}}",0.16930313,0.13221845477819444,0.10753684,5.0
+103,Show an example of how to add a value in the application.properties file and use it in a test / class,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'lambda_mult': 0.5}}",0.16930313,0.13221845477819444,0.10753684,5.0
+104,Show an example of how to add a value in the application.properties file and use it in a test / class,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'lambda_mult': 0.75}}",0.16930313,0.13967562913894654,0.10753684,5.0
+105,Show an example of how to add a value in the application.properties file and use it in a test / class,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'lambda_mult': 0.25}}",0.38031197,0.15214565992355347,0.049588043,10.0
+106,Show an example of how to add a value in the application.properties file and use it in a test / class,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'lambda_mult': 0.5}}",0.38031197,0.1643378559499979,0.049588043,10.0
+107,Show an example of how to add a value in the application.properties file and use it in a test / class,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'lambda_mult': 0.75}}",0.38031197,0.16007922925055026,0.049588043,10.0
+108,Show an example of how to add a value in the application.properties file and use it in a test / class,"{'search_type': 'similarity_score_threshold', 'search_kwargs': {'score_threshold': 0.5}}",0.18022306,0.1315200738608837,0.06901726,4.0
+109,Show an example of how to add a value in the application.properties file and use it in a test / class,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'fetch_k': 30}}",0.16930313,0.12372290641069413,0.07325394,5.0
+110,Show an example of how to add a value in the application.properties file and use it in a test / class,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'fetch_k': 50}}",0.9507874,0.2735227204859257,0.040768716,5.0
+111,Show an example of how to add a value in the application.properties file and use it in a test / class,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'fetch_k': 70}}",0.9507874,0.2735227204859257,0.040768716,5.0
+112,Show an example of how to add a value in the application.properties file and use it in a test / class,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'fetch_k': 30}}",0.21914972,0.1351016614586115,0.049588043,10.0
+113,Show an example of how to add a value in the application.properties file and use it in a test / class,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'fetch_k': 50}}",0.9507875,0.17240198086947203,0.014865136,10.0
+114,Show an example of how to add a value in the application.properties file and use it in a test / class,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'fetch_k': 70}}",0.9507875,0.17240198086947203,0.014865136,10.0
+115,I created Properties file for using in tests. how can I read specific property from My Properties file,{'search_kwargs': {'k': 5}},0.1988944,0.10199547931551933,0.042752426,5.0
+116,I created Properties file for using in tests. how can I read specific property from My Properties file,{'search_kwargs': {'k': 10}},0.6180492,0.13044126853346824,0.020463588,10.0
+117,I created Properties file for using in tests. how can I read specific property from My Properties file,{'search_kwargs': {'k': 15}},0.6180492,0.10671493336558342,0.020463588,15.0
+118,I created Properties file for using in tests. how can I read specific property from My Properties file,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'lambda_mult': 0.25}}",0.61804897,0.1822685118764639,0.020463645,5.0
+119,I created Properties file for using in tests. how can I read specific property from My Properties file,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'lambda_mult': 0.5}}",0.61804897,0.1822685118764639,0.020463645,5.0
+120,I created Properties file for using in tests. how can I read specific property from My Properties file,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'lambda_mult': 0.75}}",0.61804897,0.1822685118764639,0.020463645,5.0
+121,I created Properties file for using in tests. how can I read specific property from My Properties file,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'lambda_mult': 0.25}}",0.6180492,0.12032015696167946,0.020463588,10.0
+122,I created Properties file for using in tests. how can I read specific property from My Properties file,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'lambda_mult': 0.5}}",0.6180492,0.12032015696167946,0.020463588,10.0
+123,I created Properties file for using in tests. how can I read specific property from My Properties file,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'lambda_mult': 0.75}}",0.6180492,0.1230290487408638,0.020463588,10.0
+124,I created Properties file for using in tests. how can I read specific property from My Properties file,"{'search_type': 'similarity_score_threshold', 'search_kwargs': {'score_threshold': 0.5}}",0.1988944,0.10163598228245974,0.042752426,4.0
+125,I created Properties file for using in tests. how can I read specific property from My Properties file,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'fetch_k': 30}}",0.61804897,0.18190823793411254,0.020463645,5.0
+126,I created Properties file for using in tests. how can I read specific property from My Properties file,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'fetch_k': 50}}",0.61804897,0.17666126787662506,0.016517576,5.0
+127,I created Properties file for using in tests. how can I read specific property from My Properties file,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'fetch_k': 70}}",0.61804897,0.17666126787662506,0.016517576,5.0
+128,I created Properties file for using in tests. how can I read specific property from My Properties file,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'fetch_k': 30}}",0.6180492,0.11128833200782537,0.020463588,10.0
+129,I created Properties file for using in tests. how can I read specific property from My Properties file,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'fetch_k': 50}}",0.6180492,0.10833664815872908,0.016517585,10.0
+130,I created Properties file for using in tests. how can I read specific property from My Properties file,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'fetch_k': 70}}",0.6180492,0.10793237639591098,0.014901848,10.0
+131,"Is there infrastructure support for reporting to XRAY? And if so, how do you use it?",{'search_kwargs': {'k': 5}},0.045152005,0.025114914402365685,0.013830928,5.0
+132,"Is there infrastructure support for reporting to XRAY? And if so, how do you use it?",{'search_kwargs': {'k': 10}},0.04515181,0.0248700181953609,0.0138309095,10.0
+133,"Is there infrastructure support for reporting to XRAY? And if so, how do you use it?",{'search_kwargs': {'k': 15}},0.04515181,0.02212384423861901,0.009400797,15.0
+134,"Is there infrastructure support for reporting to XRAY? And if so, how do you use it?","{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'lambda_mult': 0.25}}",0.045152005,0.027039727382361888,0.009400784,5.0
+135,"Is there infrastructure support for reporting to XRAY? And if so, how do you use it?","{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'lambda_mult': 0.5}}",0.045152005,0.027039727382361888,0.009400784,5.0
+136,"Is there infrastructure support for reporting to XRAY? And if so, how do you use it?","{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'lambda_mult': 0.75}}",0.045152005,0.024863352254033088,0.013830928,5.0
+137,"Is there infrastructure support for reporting to XRAY? And if so, how do you use it?","{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'lambda_mult': 0.25}}",0.04515181,0.028187050204724073,0.009400797,10.0
+138,"Is there infrastructure support for reporting to XRAY? And if so, how do you use it?","{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'lambda_mult': 0.5}}",0.04515181,0.022807185351848603,0.009400797,10.0
+139,"Is there infrastructure support for reporting to XRAY? And if so, how do you use it?","{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'lambda_mult': 0.75}}",0.04515181,0.0227598512545228,0.009400797,10.0
+140,"Is there infrastructure support for reporting to XRAY? And if so, how do you use it?","{'search_type': 'similarity_score_threshold', 'search_kwargs': {'score_threshold': 0.5}}",0.045152005,0.027648203540593386,0.013830928,4.0
+141,"Is there infrastructure support for reporting to XRAY? And if so, how do you use it?","{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'fetch_k': 30}}",0.045151953,0.024586612172424794,0.009400757,5.0
+142,"Is there infrastructure support for reporting to XRAY? And if so, how do you use it?","{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'fetch_k': 50}}",0.05357609,0.022218806389719247,0.0007902081,5.0
+143,"Is there infrastructure support for reporting to XRAY? And if so, how do you use it?","{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'fetch_k': 70}}",0.05357609,0.022218806389719247,0.0007902081,5.0
+144,"Is there infrastructure support for reporting to XRAY? And if so, how do you use it?","{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'fetch_k': 30}}",0.04515181,0.025168835092335938,0.009400797,10.0
+145,"Is there infrastructure support for reporting to XRAY? And if so, how do you use it?","{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'fetch_k': 50}}",0.05357617,0.019812214019475506,0.00079020666,10.0
+146,"Is there infrastructure support for reporting to XRAY? And if so, how do you use it?","{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'fetch_k': 70}}",0.05357601,0.019402856478700416,0.00053643074,10.0
+147,What is soft assert and how to use it in my test?,{'search_kwargs': {'k': 5}},0.12895325,0.06351302601397038,0.028843185,5.0
+148,What is soft assert and how to use it in my test?,{'search_kwargs': {'k': 10}},0.12895343,0.05487536396831274,0.019786555,10.0
+149,What is soft assert and how to use it in my test?,{'search_kwargs': {'k': 15}},0.20410407,0.0660762932151556,0.019786555,15.0
+150,What is soft assert and how to use it in my test?,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'lambda_mult': 0.25}}",0.20410386,0.0814395409077406,0.018822731,5.0
+151,What is soft assert and how to use it in my test?,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'lambda_mult': 0.5}}",0.20410386,0.08264648653566838,0.018822731,5.0
+152,What is soft assert and how to use it in my test?,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'lambda_mult': 0.75}}",0.12895325,0.05254145748913288,0.018822731,5.0
+153,What is soft assert and how to use it in my test?,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'lambda_mult': 0.25}}",0.2041041,0.061224807798862454,0.018822726,10.0
+154,What is soft assert and how to use it in my test?,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'lambda_mult': 0.5}}",0.2041041,0.061865920946002004,0.018822726,10.0
+155,What is soft assert and how to use it in my test?,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'lambda_mult': 0.75}}",0.12895343,0.04448133017867804,0.018822726,10.0
+156,What is soft assert and how to use it in my test?,"{'search_type': 'similarity_score_threshold', 'search_kwargs': {'score_threshold': 0.5}}",0.12895325,0.0630703647620976,0.028843185,4.0
+157,What is soft assert and how to use it in my test?,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'fetch_k': 30}}",0.12895325,0.04209374766796827,0.010696427,5.0
+158,What is soft assert and how to use it in my test?,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'fetch_k': 50}}",0.12895325,0.03176316922181286,0.00041402158,5.0
+159,What is soft assert and how to use it in my test?,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'fetch_k': 70}}",0.12895325,0.03176316922181286,0.00041402158,5.0
+160,What is soft assert and how to use it in my test?,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'fetch_k': 30}}",0.2041041,0.056642068549990654,0.010696437,10.0
+161,What is soft assert and how to use it in my test?,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'fetch_k': 50}}",0.2041041,0.04430598019680474,0.00041402216,10.0
+162,What is soft assert and how to use it in my test?,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'fetch_k': 70}}",0.2041041,0.04241701492865104,0.00041402216,10.0

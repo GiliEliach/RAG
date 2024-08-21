@@ -1,0 +1,18 @@
+,Search Option,Max Score,Mean Score,Min Score,Num of Documents
+16,"{'search_type': 'similarity_score_threshold', 'search_kwargs': {'score_threshold': 0.7}}",0.7906094,0.7906094590822855,0.7906094,1.0
+15,"{'search_type': 'similarity_score_threshold', 'search_kwargs': {'score_threshold': 0.5}}",0.34597576,0.21315953037701546,0.11072551,4.0
+2,{'search_kwargs': {'k': 5}},0.3480797,0.2070746759045869,0.10959873,5.0
+14,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'lambda_mult': 0.75}}",0.37100753,0.19321350370999427,0.05790062,5.0
+0,{'search_kwargs': {'k': 10}},0.38999525,0.17697504866402597,0.05568397,10.0
+8,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'lambda_mult': 0.75}}",0.41000414,0.161698567813728,0.024548264,10.0
+1,{'search_kwargs': {'k': 15}},0.3975103,0.1513955267518759,0.024840562,15.0
+13,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'lambda_mult': 0.5}}",0.36958775,0.14693549490068109,0.031303238,5.0
+12,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'lambda_mult': 0.25}}",0.36887407,0.14557351173367353,0.031303238,5.0
+7,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'lambda_mult': 0.5}}",0.39972368,0.14045212364057078,0.024548264,10.0
+10,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'fetch_k': 50}}",0.4488926,0.13767357896722388,0.012436136,5.0
+11,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'fetch_k': 70}}",0.44387436,0.1354789681288821,0.010716958,5.0
+6,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'lambda_mult': 0.25}}",0.39078882,0.1320369782554917,0.024548264,10.0
+3,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'fetch_k': 30}}",0.38360745,0.12456395757733844,0.023040285,10.0
+9,"{'search_type': 'mmr', 'search_kwargs': {'k': 5, 'fetch_k': 30}}",0.36207268,0.11852262107189745,0.025416713,5.0
+4,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'fetch_k': 50}}",0.4564078,0.09945877950616705,0.0077971905,10.0
+5,"{'search_type': 'mmr', 'search_kwargs': {'k': 10, 'fetch_k': 70}}",0.4564078,0.09050754201110976,0.004948652,10.0
