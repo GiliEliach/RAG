@@ -1,5 +1,5 @@
 from utils import *
-from config import DATA_FILES, FAISS_INDEX_PATH, MIN_DOCUMENTS
+from config import DATA_FILES, FAISS_INDEX_PATH, MIN_DOCUMENTS, FAISS_INDEX_PATH_REPOS, REPOS_FILES
 import pandas as pd
 import os
 
@@ -36,15 +36,15 @@ def metrics_for_basic_queries():
 
     metrics_df = pd.DataFrame(columns=["Query", "Search Option", "Max Score", "Mean Score", "Min Score"])
 
-    if not os.path.exists(FAISS_INDEX_PATH):
-        loader = load_files(folder_path=DATA_FILES)
+    if not os.path.exists(FAISS_INDEX_PATH_REPOS):
+        loader = load_files(folder_path=REPOS_FILES)
         documents = split_text(loaders=loader)
         embedding_model = load_embedding_model(device="cpu")
         vectorstore = FAISS.from_documents(documents=documents, embedding=embedding_model)
-        save_embeddings(vectorstore, FAISS_INDEX_PATH)
+        save_embeddings(vectorstore, FAISS_INDEX_PATH_REPOS)
     else:
         embedding_model = load_embedding_model(device="cpu")
-        vectorstore = load_embeddings(FAISS_INDEX_PATH, embedding_model)
+        vectorstore = load_embeddings(FAISS_INDEX_PATH_REPOS, embedding_model)
 
     for user_query in queries:
         for option in search_grid:

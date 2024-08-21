@@ -37,3 +37,4 @@ if __name__ == '__main__':
             pdf_file.write(content)
             print(f"Document {idx+1} of {len(pages_info.values())} is saved in the 'src/confluence' folder, the name "
                   f"of the document: "+page_title)
+

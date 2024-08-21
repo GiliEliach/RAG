@@ -12,7 +12,7 @@ from src.utils import load_embedding_model, load_reranker_model, rerank_docs, bu
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 if __name__=="__main__":
 
-    repo_path = "bitbucket_repos"
+    repo_path = "../bitbucket_repos"
     if not os.path.exists(repo_path):
         repo = Repo.clone_from("https://bitbucket.org/nir_gallner/verisoftframeworkexamples/src/master/", to_path=repo_path)
 

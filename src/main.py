@@ -19,8 +19,10 @@ def main():
         vectorstore = load_embeddings(FAISS_INDEX_PATH, embedding_model)
 
     retriever = vectorstore.as_retriever(search_kwargs={'k':10})
-    reranker_model = load_reranker_model(device="cpu")
     retrieved_documents = retriever.get_relevant_documents(query)
+
+
+    reranker_model = load_reranker_model(device="cpu")
     context = rerank_docs(reranker_model, query, retrieved_documents)
     return build_prompt(query, context)
 
